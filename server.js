@@ -13,9 +13,7 @@ app.get('/users', function(req,res) {
 		message: 'successfully got users. Noice!',
 		users: mockUserData
 	})
-])
-
-
-app.listen(8000,function(){
-console.log("server is listening")
 })
+
+
+app.listen(8000,function(){console.log("server is listening")})
